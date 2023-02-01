@@ -1,4 +1,8 @@
-module github.com/tidwall/rtree
+// fork of github.com/tidwall/rtree
+// intended to create a read only rtree
+// for optimized prepopulation and runtime loading
+
+module github.com/paulstuart/rtree
 
 go 1.18
 
